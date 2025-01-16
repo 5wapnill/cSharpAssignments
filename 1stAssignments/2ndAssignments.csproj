@@ -69,19 +69,19 @@
   <ItemGroup>
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
-    <Content Include="1stAssignment.aspx" />
+    <Content Include="2ndAssignment.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="1stAssignment.aspx.cs">
-      <DependentUpon>1stAssignment.aspx</DependentUpon>
+    <Compile Include="2ndAssignment.aspx.cs">
+      <DependentUpon>2ndAssignment.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="1stAssignment.aspx.designer.cs">
-      <DependentUpon>1stAssignment.aspx</DependentUpon>
+    <Compile Include="2ndAssignment.aspx.designer.cs">
+      <DependentUpon>2ndAssignment.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
