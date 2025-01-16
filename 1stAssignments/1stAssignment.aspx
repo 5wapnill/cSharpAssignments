@@ -17,7 +17,6 @@
                 <asp:Label ID="Gender_lable1" runat="server" Text="Email : " for="Email"></asp:Label>
                 &nbsp;<asp:TextBox ID="Email" runat="server"></asp:TextBox>
             </p>
-            <link href="file:///d:\code\visual%20studio\c#assignments\1stassignments\styles.css" rel="stylesheet" />
             <p>
                 <asp:Label ID="Gender_lable" runat="server" Text="Gender : "></asp:Label>
                 <asp:RadioButton ID="Male" runat="server" GroupName="Gender" Text="Male" />
