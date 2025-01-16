@@ -17,14 +17,15 @@
                 <asp:Label ID="Gender_lable1" runat="server" Text="Email : " for="Email"></asp:Label>
                 &nbsp;<asp:TextBox ID="Email" runat="server"></asp:TextBox>
             </p>
+            <link href="file:///d:\code\visual%20studio\c#assignments\1stassignments\styles.css" rel="stylesheet" />
             <p>
                 <asp:Label ID="Gender_lable" runat="server" Text="Gender : "></asp:Label>
-                <input id="Male" type="radio" runat="server"/><asp:Label ID="Label7" runat="server" Text="Male" for="Male" value="Male"></asp:Label>
-                <input id="Female" type="radio" runat="server"/><asp:Label ID="Label8" runat="server" Text="Female" for="Female" value="Female"></asp:Label>
-                <input id="Other" type="radio" runat="server"/><asp:Label ID="Label6" runat="server" Text="Other" for="Other" value="Other"></asp:Label>
+                <asp:RadioButton ID="Male" runat="server" GroupName="Gender" Text="Male" />
+                <asp:RadioButton ID="Female" runat="server" GroupName="Gender" Text="Female" />
+                <asp:RadioButton ID="Other" runat="server" GroupName="Gender" Text="Other" />
             </p>
             <p>
-                <asp:Button ID="Submit" runat="server" Text="Submit" OnClick="Submit_Click1" />
+                <asp:Button ID="Submit" CssClass="btn" runat="server" Text="Submit" OnClick="Submit_Click1" />
             </p>
         </div>
     </form>

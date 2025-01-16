@@ -19,8 +19,22 @@ namespace _1stAssignments
             string name = Name.Text;
             string email = Email.Text;
 
+            string gender;
 
-            Response.Write($"Name : {name} <br>Email : {email} ");
+            if (Male.Checked)
+            {
+                gender = Male.Text;
+            }
+            else if (Female.Checked)
+            {
+                gender = Female.Text;
+            }
+            else
+            {
+                gender = Other.Text;
+            }
+
+            Response.Write($"Name : {name} <br>Email : {email} <br>Gender : {gender}");
         }
     }
 }
