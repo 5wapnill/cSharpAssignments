@@ -71,6 +71,7 @@
     <Content Include="Web.config" />
     <Content Include="2ndAssignment.aspx" />
     <Content Include="3rdAssignment.aspx" />
+    <Content Include="4thAssignment.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="3rdAssignment.aspx.designer.cs">
       <DependentUpon>3rdAssignment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="4thAssignment.aspx.cs">
+      <DependentUpon>4thAssignment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="4thAssignment.aspx.designer.cs">
+      <DependentUpon>4thAssignment.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -11,7 +11,7 @@ namespace _1stAssignments
 {
 
 
-    public partial class WebForm2
+    public partial class WebForm3
     {
 
         /// <summary>
@@ -33,48 +33,21 @@ namespace _1stAssignments
         protected global::System.Web.UI.WebControls.Label Label1;
 
         /// <summary>
-        /// Good control.
+        /// DropDownList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox Good;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList;
 
         /// <summary>
-        /// Average control.
+        /// Button control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox Average;
-
-        /// <summary>
-        /// Poor control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox Poor;
-
-        /// <summary>
-        /// TextBox control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox;
-
-        /// <summary>
-        /// Button1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button Button;
     }
 }
