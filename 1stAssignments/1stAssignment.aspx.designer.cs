@@ -24,22 +24,40 @@ namespace _1stAssignments
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Name_lable control.
+        /// Gender_lable0 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Name_lable;
+        protected global::System.Web.UI.WebControls.Label Gender_lable0;
 
         /// <summary>
-        /// Email_lable control.
+        /// Name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Email_lable;
+        protected global::System.Web.UI.WebControls.TextBox Name;
+
+        /// <summary>
+        /// Gender_lable1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Gender_lable1;
+
+        /// <summary>
+        /// Email control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Email;
 
         /// <summary>
         /// Gender_lable control.
@@ -51,6 +69,15 @@ namespace _1stAssignments
         protected global::System.Web.UI.WebControls.Label Gender_lable;
 
         /// <summary>
+        /// Male control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Male;
+
+        /// <summary>
         /// Label7 control.
         /// </summary>
         /// <remarks>
@@ -60,6 +87,15 @@ namespace _1stAssignments
         protected global::System.Web.UI.WebControls.Label Label7;
 
         /// <summary>
+        /// Female control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Female;
+
+        /// <summary>
         /// Label8 control.
         /// </summary>
         /// <remarks>
@@ -67,6 +103,15 @@ namespace _1stAssignments
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label8;
+
+        /// <summary>
+        /// Other control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Other;
 
         /// <summary>
         /// Label6 control.

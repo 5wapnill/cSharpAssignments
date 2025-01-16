@@ -9,9 +9,18 @@ namespace _1stAssignments
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        protected void Page_Load(object sender, EventArgs e)
+        protected void Submit_Click(object sender, EventArgs e)
         {
 
+        }
+
+        protected void Submit_Click1(object sender, EventArgs e)
+        {
+            string name = Name.Text;
+            string email = Email.Text;
+
+
+            Response.Write($"Name : {name} <br>Email : {email} ");
         }
     }
 }
