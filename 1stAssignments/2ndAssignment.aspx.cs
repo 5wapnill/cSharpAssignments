@@ -33,8 +33,11 @@ namespace _1stAssignments
             {
                 gender = Other.Text;
             }
+            lab.Visible = nm.Visible = eml.Visible = gnd.Visible = true;
+            nm.Text += name;
+            eml.Text += email;
+            gnd.Text += gender;
 
-            Response.Write($"Name : {name} <br>Email : {email} <br>Gender : {gender}");
         }
     }
 }

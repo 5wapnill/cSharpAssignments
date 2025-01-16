@@ -5,6 +5,43 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+    <style>
+        * {
+            padding: 5px;
+        }
+
+        body {
+            padding: 20px;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div {
+            padding: 20px;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #Submit {
+            padding: 10px;
+            margin: 10px;
+            background-color: violet;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        #lab{
+            font-size:50px;
+            margin-bottom:30px
+        }
+    </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -26,6 +63,13 @@
             <p>
                 <asp:Button ID="Submit" CssClass="btn" runat="server" Text="Submit" OnClick="Submit_Click1" />
             </p>
+            <asp:Label ID="lab" runat="server" Text="you entered " Visible="False"></asp:Label>
+            <br />
+            <asp:Label ID="nm" runat="server" Text="Name = " Visible="false"></asp:Label>
+            <br />
+            <asp:Label ID="eml" runat="server" Text="Email = " Visible="false"></asp:Label>
+            <br />
+            <asp:Label ID="gnd" runat="server" Text="Gender = " Visible="false"></asp:Label>
         </div>
     </form>
 </body>
