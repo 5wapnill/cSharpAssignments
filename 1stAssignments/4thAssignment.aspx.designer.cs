@@ -42,6 +42,15 @@ namespace _1stAssignments
         protected global::System.Web.UI.WebControls.DropDownList DropDownList;
 
         /// <summary>
+        /// here1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label here1;
+
+        /// <summary>
         /// Button control.
         /// </summary>
         /// <remarks>
@@ -49,5 +58,14 @@ namespace _1stAssignments
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button;
+
+        /// <summary>
+        /// here2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label here2;
     }
 }

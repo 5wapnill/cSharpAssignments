@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>2ndAssignment</title>
     <style>
         * {
             padding: 5px;
@@ -12,7 +12,7 @@
 
         body {
             padding: 20px;
-            background-color: black;
+            background-color: #0d0d0d;
             color: white;
             display: flex;
             justify-content: center;

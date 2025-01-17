@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    <title>3rdAssignment</title>
     <style>
         *{
             padding:5px;
@@ -26,7 +26,7 @@
             height: 80px;
             text-align: center;
         }
-        #Button {
+        #Button3 {
             width: 100%;
             height:50px;
             background-color: black;
@@ -48,9 +48,9 @@
                         <asp:Label ID="Label1" runat="server" Text="how was your experience ?"></asp:Label>
                     </td>
                     <td>
-                        <asp:CheckBox ID="Good" runat="server" Text="Good" GroupName="exp" />
-                        <asp:CheckBox ID="Average" runat="server" Text="Average" GroupName="exp" />
-                        <asp:CheckBox ID="Poor" runat="server" Text="Poor" GroupName="exp" />
+                        <asp:CheckBox ID="Good" runat="server" Text="Good"/>
+                        <asp:CheckBox ID="Average" runat="server" Text="Average"/>
+                        <asp:CheckBox ID="Poor" runat="server" Text="Poor"/>
                     </td>
                 </tr>
                 <tr>
@@ -60,10 +60,16 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <asp:Button ID="Button1" runat="server" Text="Submit Feedback" />
+                        <asp:Button ID="Button3" runat="server" Text="Submit Feedback" OnClick="Button3_Click" />
                     </td>
                 </tr>
             </table>
+            <div>
+            <asp:Label ID="here3" runat="server" Text="your experience is : " Visible="false"></asp:Label>
+            </div>
+            <div>
+            <asp:Label ID="here4" runat="server" Text="your additional feedback is : " Visible="false"></asp:Label>
+            </div>
         </div>
     </form>
     </div>

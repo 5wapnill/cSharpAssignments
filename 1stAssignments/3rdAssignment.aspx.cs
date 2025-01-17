@@ -13,5 +13,26 @@ namespace _1stAssignments
         {
 
         }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            here3.Visible = here4.Visible = true;
+
+            string ans = " ";
+            if(Good.Checked)
+            {
+                ans += "Good ";
+            }
+            if(Average.Checked) {
+                ans += "Average ";
+            }
+            if (Poor.Checked)
+            {
+                ans += "Poor ";
+            }
+
+            here3.Text += ans;
+            here4.Text += TextBox.Text;
+        }
     }
 }
